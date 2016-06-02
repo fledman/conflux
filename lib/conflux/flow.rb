@@ -31,7 +31,7 @@ module Conflux
     end
 
     def sink(states = SUCCESS)
-      GraphPartition.new(states).select(@graph)
+      GraphPartition[states].select(@graph)
     end
   end
 end

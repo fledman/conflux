@@ -5,7 +5,7 @@ module Conflux
   class PartialGraphTransform < GraphTransform
     def initialize(nodes, states)
       super(nodes)
-      GraphPartition.new(states).reject(@before).each{ |n| pass(node: n) }
+      GraphPartition[states].reject(@before).each{ |n| pass(node: n) }
     end
   end
 end
