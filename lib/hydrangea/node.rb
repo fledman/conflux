@@ -1,4 +1,4 @@
-module Conflux
+module Hydrangea
   class Node
     attr_reader :state, :value, :previous, :first
 

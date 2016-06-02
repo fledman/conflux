@@ -1,6 +1,6 @@
 require 'set'
 
-module Conflux
+module Hydrangea
   SUCCESS = :success
   FAILURE = :failure
   ERRORED = :errored

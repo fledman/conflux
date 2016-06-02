@@ -1,8 +1,8 @@
-require 'conflux/graph'
-require 'conflux/node'
-require 'conflux/action_error'
+require 'hydrangea/graph'
+require 'hydrangea/node'
+require 'hydrangea/action_error'
 
-module Conflux
+module Hydrangea
   class GraphTransform
     def initialize(graph)
       @before = graph.to_set

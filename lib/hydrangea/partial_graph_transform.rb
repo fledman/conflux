@@ -1,7 +1,7 @@
-require 'conflux/graph_transform'
-require 'conflux/graph_partition'
+require 'hydrangea/graph_transform'
+require 'hydrangea/graph_partition'
 
-module Conflux
+module Hydrangea
   class PartialGraphTransform < GraphTransform
     def initialize(nodes, states)
       super(nodes)

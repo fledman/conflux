@@ -1,7 +1,7 @@
 require 'set'
 require 'forwardable'
 
-module Conflux
+module Hydrangea
   class Graph
     extend Forwardable
 

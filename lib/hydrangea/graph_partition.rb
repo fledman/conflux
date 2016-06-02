@@ -1,6 +1,6 @@
-require 'conflux/constants'
+require 'hydrangea/constants'
 
-module Conflux
+module Hydrangea
   class GraphPartition
     def self.[](state_arg)
       @instances ||= {}

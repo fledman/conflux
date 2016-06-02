@@ -1,7 +1,7 @@
 require 'forwardable'
-require 'conflux/constants'
+require 'hydrangea/constants'
 
-module Conflux
+module Hydrangea
   class SingleNode
     extend Forwardable
 

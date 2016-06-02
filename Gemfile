@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in conflux.gemspec
+# Specify your gem's dependencies in hydrangea.gemspec
 gemspec

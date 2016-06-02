@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'conflux/version'
+require 'hydrangea/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "conflux"
-  spec.version       = Conflux::VERSION
+  spec.name          = "hydrangea"
+  spec.version       = Hydrangea::VERSION
   spec.authors       = ["David Feldman"]
   spec.email         = ["dbfeldman@gmail.com"]
 
   spec.summary       = "Flow control for batch operations"
-  spec.description   = "Conflux provides better flow control for batch operations"
-  spec.homepage      = "https://github.com/fledman/conflux"
+  spec.description   = "Hydrangea provides better flow control for batch operations"
+  spec.homepage      = "https://github.com/fledman/hydrangea"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

@@ -1,10 +1,10 @@
-require 'conflux/single_node'
-require 'conflux/list_of_nodes'
-require 'conflux/nodes_by_value'
-require 'conflux/graph_partition'
-require 'conflux/partial_graph_transform'
+require 'hydrangea/single_node'
+require 'hydrangea/list_of_nodes'
+require 'hydrangea/nodes_by_value'
+require 'hydrangea/graph_partition'
+require 'hydrangea/partial_graph_transform'
 
-module Conflux
+module Hydrangea
   class Flow
     def initialize(graph)
       @graph = graph

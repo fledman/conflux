@@ -1,6 +1,6 @@
-require 'conflux/many_nodes'
+require 'hydrangea/many_nodes'
 
-module Conflux
+module Hydrangea
   class ListOfNodes < ManyNodes
     def initialize(transform)
       @transform = transform
