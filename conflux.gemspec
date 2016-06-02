@@ -10,6 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["dbfeldman@gmail.com"]
 
   spec.summary       = "Flow control for batch operations"
+  spec.description   = "Flow control for batch operations"
   spec.homepage      = "https://github.com/fledman/conflux"
   spec.license       = "MIT"
 
